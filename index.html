@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">    
+        <title>Photo Galery</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 style="text-align:center">My Best Photo Gallery</h1>
+    
+    <div class="rama">
+      <div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 8</div>
+    <a href="https://www.pexels.com/hu-hu/foto/megfazas-ho-tajkep-termeszet-624015/"><img src="images\northern _lights.jpg" style="max-width:100%"></a>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 8</div>
+    <a href="https://www.pexels.com/hu-hu/foto/hajnal-tajkep-termeszet-eg-3244513/"></a><img src="images\north.jpg" style="max-width: 100%"></a>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 8</div>
+    <a href="https://www.pexels.com/hu-hu/foto/termeszet-allat-szemek-homaly-1785283/"></a><img src="images\diver.jpg" style="max-width:100%"></a>
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 8</div>
+    <a href="https://www.pexels.com/hu-hu/foto/tenger-ferfi-szemely-viz-3098965/"><img src="images\thunder.jpg" style="max-width:100%"></a>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 8</div>
+    <a href="https://www.pexels.com/hu-hu/foto/ferfi-kave-csesze-okostelefon-6238137/" ><img src="images\orangutan.jpg" style="max-width:100%"></a>
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 8</div>
+    <a href="https://www.pexels.com/hu-hu/foto/divat-szemely-kezek-fiatal-2293509/"><img src="images\social.jpg" style="max-width:100%"></a>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">7 / 8</div>
+    <a href="https://www.pexels.com/hu-hu/foto/ferfi-kave-csesze-okostelefon-6238137/"><img src="images\future.jpg" style="max-width:100%"></a>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">8 / 8</div>
+    <a href="https://www.pexels.com/hu-hu/foto/megfazas-gleccser-ho-tajkep-2113566/"><img src="images\robot.jpg" style="max-width:100%"></a>
+  </div>
+    
+  <a class="prev" onclick="addSlides(-1)">❮</a>
+  <a class="next" onclick="addSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images\northern _lights.jpg" style="max-width:100%" onclick="currentSlide(1)" alt="The northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images\north.jpg" style="max-width:100%" onclick="currentSlide(2)" alt="North pole nights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images\diver.jpg" style="max-width:100%" onclick="currentSlide(3)" alt="Diver live's">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images\thunder.jpg" style="max-width:100%" onclick="currentSlide(4)" alt="Thunder strike">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images\orangutan.jpg" style="max-width:100%" onclick="currentSlide(5)" alt="Thoughts of the day"> 
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="images\social.jpg" style="max-width:100%" onclick="currentSlide(6)" alt="Social party">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images\future.jpg" style="max-width:100%" onclick="currentSlide(7)" alt="Everydays">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images\robot.jpg" style="max-width:100%" onclick="currentSlide(8)" alt="Our friend">
+    </div>
+  </div>
+</div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./scripts.js"></script>
+</body>
+</html>
